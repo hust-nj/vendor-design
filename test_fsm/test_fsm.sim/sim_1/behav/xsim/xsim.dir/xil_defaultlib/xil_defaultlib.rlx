@@ -1,0 +1,11 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/vendor/test_fsm/test_fsm.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sim_1/new/fsm_tb.v,1537416433,verilog,,,,fsm_tb,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/display_num.v,1535823443,verilog,,E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/divide_clk.v,,decoder3_8;display_num;pattern,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/divide_clk.v,1537338571,verilog,,E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/fsm.v,,divide_clk,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/fsm.v,1537415061,verilog,,E:/vendor/test_fsm/test_fsm.srcs/sim_1/new/fsm_tb.v,,fsm,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/main.v,1537405439,verilog,,,,main,,,,,,,,
+E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/show.v,1537339865,verilog,,E:/vendor/test_fsm/test_fsm.srcs/sources_1/new/main.v,,show,,,,,,,,

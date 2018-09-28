@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vendor/project_vendor/project_vendor.srcs/sources_1/new/display_num.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display_num
+INFO: [VRFC 10-311] analyzing module decoder3_8
+INFO: [VRFC 10-311] analyzing module pattern
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vendor/project_vendor/project_vendor.srcs/sources_1/new/divide_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divide_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vendor/project_vendor/project_vendor.srcs/sources_1/new/show.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module show
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vendor/project_vendor/project_vendor.srcs/sim_1/new/show_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module show_tb

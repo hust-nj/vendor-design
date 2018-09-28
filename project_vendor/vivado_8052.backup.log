@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Sep 25 03:13:12 2018
+# Process ID: 8052
+# Current directory: E:/vendor/project_vendor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent984 E:\vendor\project_vendor\project_vendor.xpr
+# Log file: E:/vendor/project_vendor/vivado.log
+# Journal file: E:/vendor/project_vendor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vendor/project_vendor/project_vendor.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 823.660 ; gain = 105.012
+update_compile_order -fileset sources_1
+save_project_as test_vender E:/vendor/test_vender -force
+save_project_as: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 831.102 ; gain = 1.922
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/vendor/test_vender/test_vender.srcs/sim_1/new/vender_tb.v w ]
+add_files -fileset sim_1 E:/vendor/test_vender/test_vender.srcs/sim_1/new/vender_tb.v
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 25 03:26:17 2018...

@@ -1,0 +1,7 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto af538522deec430f90bf85aa6ad98d5d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot show_tb_behav xil_defaultlib.show_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net seg is not permitted [E:/vendor/project_vendor/project_vendor.srcs/sim_1/new/show_tb.v:52]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Thu Sep 20 11:48:56 2018
+| Host         : DESKTOP-O1BN88E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      4 |            4 |
+|      5 |            1 |
+|      8 |            1 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              33 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              53 |           17 |
+| Yes          | No                    | No                     |              73 |           40 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------+----------------------------+---------------------------------------+------------------+----------------+
+|                   Clock Signal                  |        Enable Signal       |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++-------------------------------------------------+----------------------------+---------------------------------------+------------------+----------------+
+|  fsm_inst/run_ind_reg_i_2_n_0                   |                            |                                       |                1 |              1 |
+|  div_clk                                        |                            |                                       |                1 |              1 |
+|  clk_IBUF_BUFG                                  |                            |                                       |                4 |              4 |
+|  clk_IBUF_BUFG                                  | fsm_inst/num0[3]_i_1_n_0   |                                       |                2 |              4 |
+|  clk_IBUF_BUFG                                  | fsm_inst/sum[3]_i_1_n_0    |                                       |                3 |              4 |
+|  clk_IBUF_BUFG                                  | fsm_inst/num1[3]_i_1_n_0   |                                       |                2 |              4 |
+|  div_clk                                        | seg_show/cnt[4]_i_1_n_0    |                                       |                4 |              5 |
+|  div_clk                                        | fsm_inst/dig_reg[0][0]     |                                       |                7 |              8 |
+|  div_clk                                        | fsm_inst/E[0]              |                                       |               10 |             16 |
+|  clk_IBUF_BUFG                                  |                            | fsm_inst/FSM_onehot_state[20]_i_1_n_0 |                9 |             21 |
+|  fsm_inst/FSM_onehot_next_state_reg[20]_i_2_n_0 |                            |                                       |                8 |             27 |
+|  clk_IBUF_BUFG                                  |                            | seg_show/inst/clear                   |                8 |             32 |
+|  clk_IBUF_BUFG                                  | fsm_inst/counter           |                                       |               12 |             32 |
+|  div_clk                                        | fsm_inst/counter_reg[31]_3 | fsm_inst/counter_reg[31]_0            |                9 |             32 |
++-------------------------------------------------+----------------------------+---------------------------------------+------------------+----------------+
+
+

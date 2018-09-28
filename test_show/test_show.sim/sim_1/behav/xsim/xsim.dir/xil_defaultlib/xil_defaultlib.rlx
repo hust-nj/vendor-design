@@ -1,0 +1,9 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/vendor/test_show/test_show.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/vendor/test_show/test_show.srcs/sim_1/new/show_tb.v,1537472811,verilog,,,,show_tb,,,,,,,,
+E:/vendor/test_show/test_show.srcs/sources_1/new/display_num.v,1537426443,verilog,,E:/vendor/test_show/test_show.srcs/sources_1/new/show.v,,decoder3_8;display_num;pattern,,,,,,,,
+E:/vendor/test_show/test_show.srcs/sources_1/new/divide_clk.v,1537338571,verilog,,E:/vendor/test_show/test_show.srcs/sources_1/new/show.v,,divide_clk,,,,,,,,
+E:/vendor/test_show/test_show.srcs/sources_1/new/show.v,1537809210,verilog,,E:/vendor/test_show/test_show.srcs/sim_1/new/show_tb.v,,show,,,,,,,,

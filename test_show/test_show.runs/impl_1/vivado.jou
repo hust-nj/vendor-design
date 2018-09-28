@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Sep 20 08:36:07 2018
+# Process ID: 7860
+# Current directory: E:/vendor/test_show/test_show.runs/impl_1
+# Command line: vivado.exe -log show.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source show.tcl -notrace
+# Log file: E:/vendor/test_show/test_show.runs/impl_1/show.vdi
+# Journal file: E:/vendor/test_show/test_show.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source show.tcl -notrace
